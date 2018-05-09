@@ -1,0 +1,29 @@
+name: Sign_Chat_Colors
+version: 2.0
+author: AverageKevin
+description: Get your colored signs and chat.
+main: nl.AverageKevin.CSC.ColoredChat
+permissions:
+  coloredchat.use.*:
+    description: Access to all ColoredChat features
+    children:
+      coloredchat.use.black: true
+      coloredchat.use.darkblue: true
+      coloredchat.use.darkgreen: true
+      coloredchat.use.darkturquoise: true
+      coloredchat.use.darkred: true
+      coloredchat.use.purple: true
+      coloredchat.use.gold: true
+      coloredchat.use.gray: true
+      coloredchat.use.darkgray: true
+      coloredchat.use.blue: true
+      coloredchat.use.green: true
+      coloredchat.use.turquoise: true
+      coloredchat.use.red: true
+      coloredchat.use.pink: true
+      coloredchat.use.yellow: true
+      coloredchat.use.white: true
+  signs.command:
+    description: Perm for colors command.
+  signs.format:
+    description: Perm for formats.
